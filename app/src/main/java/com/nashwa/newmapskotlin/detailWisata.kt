@@ -1,6 +1,8 @@
 package com.nashwa.newmapskotlin
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -15,6 +17,7 @@ class detailWisata : AppCompatActivity(), OnMapReadyCallback {
     private lateinit var mapView: MapView
     private lateinit var binding: ActivityDetailWisataBinding
     private lateinit var googleMap: GoogleMap
+    private lateinit var btnMaps : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,6 +34,18 @@ class detailWisata : AppCompatActivity(), OnMapReadyCallback {
         binding.imgWisata2.setImageResource(imageResId)
         binding.des.text = wisatades
 
+
+
+        btnMaps = findViewById(R.id.btnMaps)
+        btnMaps.setOnClickListener(){
+            val intent = Intent(this,MapsActivity::class.java).apply{
+                putExtra("lat", latitude)
+                putExtra("lng", longitude)
+
+            }
+            startActivity(intent)
+
+        }
         // Inisialisasi dan tampilkan lokasi di MapView
         mapView = binding.map
         mapView.onCreate(savedInstanceState)

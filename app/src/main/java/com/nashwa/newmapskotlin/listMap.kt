@@ -33,14 +33,7 @@ class listMap : AppCompatActivity() {
 
         // Update wisataList with latitude and longitude values
         val wisataList = listOf(
-            modelWisata(
-                R.drawable.jam,
-                "Jam Gadang Bukittinggi",
-                "Bukittinggi",
-                "Jam Gadang is an iconic landmark located in the heart of Bukittinggi city, West Sumatra, Indonesia. Known for its unique clock design, it serves as a major tourist attraction.",
-                -0.305441, // Latitude for Jam Gadang
-                100.3692   // Longitude for Jam Gadang
-            ),
+
             modelWisata(
                 R.drawable.danau,
                 "Danau Singkarak",
@@ -49,16 +42,16 @@ class listMap : AppCompatActivity() {
                 -0.6055,   // Latitude for Danau Singkarak
                 100.7089   // Longitude for Danau Singkarak
             ),
-
             modelWisata(
-                R.drawable._00,
-                "Kebun Teh",
-                "Alahan panjang",
-                "Kebun Teh Alahan Panjang adalah salah satu destinasi wisata alam yang populer di Kabupaten Solok, Sumatera Barat. Berada pada ketinggian sekitar 1.400 meter di atas permukaan laut, kebun teh ini menyajikan pemandangan indah dari hamparan tanaman teh yang hijau dan rapi, berlatar belakang perbukitan dan pegunungan. Suasana di Alahan Panjang sangat sejuk dan segar, menjadikannya tempat ideal untuk melepas penat dan menikmati udara pegunungan yang bersih.",
-                -1.0345897676124225,
-                100.68416119407189,   // Latitude for Danau Singkarak
-                 // Longitude for Danau Singkarak
+                R.drawable.jam,
+                "Jam Gadang Bukittinggi",
+                "Bukittinggi",
+                "Jam Gadang is an iconic landmark located in the heart of Bukittinggi city, West Sumatra, Indonesia. Known for its unique clock design, it serves as a major tourist attraction.",
+                -0.305441, // Latitude for Jam Gadang
+                100.3692   // Longitude for Jam Gadang
             ),
+
+
             modelWisata(
                 R.drawable._000,
             "Ngarai Sianok",
@@ -76,6 +69,15 @@ class listMap : AppCompatActivity() {
                 -0-0.47115692936286124,
                 100.62143708057593// Latitude for Danau Singkarak
 
+            ),
+            modelWisata(
+                R.drawable._00,
+                "Kebun Teh",
+                "Alahan panjang",
+                "Kebun Teh Alahan Panjang adalah salah satu destinasi wisata alam yang populer di Kabupaten Solok, Sumatera Barat. Berada pada ketinggian sekitar 1.400 meter di atas permukaan laut, kebun teh ini menyajikan pemandangan indah dari hamparan tanaman teh yang hijau dan rapi, berlatar belakang perbukitan dan pegunungan. Suasana di Alahan Panjang sangat sejuk dan segar, menjadikannya tempat ideal untuk melepas penat dan menikmati udara pegunungan yang bersih.",
+                -1.0345897676124225,
+                100.68416119407189,   // Latitude for Danau Singkarak
+                // Longitude for Danau Singkarak
             ),
                     modelWisata(
                     R.drawable._00000,
