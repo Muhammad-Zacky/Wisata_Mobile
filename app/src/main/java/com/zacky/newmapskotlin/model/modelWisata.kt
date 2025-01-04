@@ -1,4 +1,4 @@
-package com.nashwa.newmapskotlin.model
+package com.zacky.newmapskotlin.model
 data class modelWisata(
    val Img: Int,
    val nama: String,

@@ -1,4 +1,4 @@
-package com.nashwa.newmapskotlin
+package com.zacky.newmapskotlin
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,7 +10,7 @@ import com.google.android.gms.maps.MapView
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import com.nashwa.newmapskotlin.databinding.ActivityDetailWisataBinding
+import com.zacky.newmapskotlin.databinding.ActivityDetailWisataBinding
 
 class detailWisata : AppCompatActivity(), OnMapReadyCallback {
 

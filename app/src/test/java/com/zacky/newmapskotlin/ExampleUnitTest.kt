@@ -1,4 +1,4 @@
-package com.nashwa.newmapskotlin
+package com.zacky.newmapskotlin
 
 import org.junit.Test
 

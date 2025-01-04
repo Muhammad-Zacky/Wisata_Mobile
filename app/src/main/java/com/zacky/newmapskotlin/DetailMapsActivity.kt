@@ -1,4 +1,4 @@
-package com.nashwa.newmapskotlin
+package com.zacky.newmapskotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +9,7 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import com.nashwa.newmapskotlin.databinding.ActivityDetailMapsBinding
+import com.zacky.newmapskotlin.databinding.ActivityDetailMapsBinding
 
 class DetailMapsActivity : AppCompatActivity(), OnMapReadyCallback {
 

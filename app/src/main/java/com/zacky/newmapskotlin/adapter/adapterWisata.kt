@@ -1,4 +1,4 @@
-package com.nashwa.newmapskotlin.adapter
+package com.zacky.newmapskotlin.adapter
 
 import android.content.Context
 import android.content.Intent
@@ -8,9 +8,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.nashwa.newmapskotlin.R
-import com.nashwa.newmapskotlin.detailWisata
-import com.nashwa.newmapskotlin.model.modelWisata
+import com.zacky.newmapskotlin.R
+import com.zacky.newmapskotlin.detailWisata
+import com.zacky.newmapskotlin.model.modelWisata
 
 class adapterWisata(
     private var context: Context,

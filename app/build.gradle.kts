@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.nashwa.newmapskotlin"
+    namespace = "com.zacky.newmapskotlin"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.nashwa.newmapskotlin"
+        applicationId = "com.zacky.newmapskotlin"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

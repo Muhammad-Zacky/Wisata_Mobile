@@ -1,17 +1,15 @@
-package com.nashwa.newmapskotlin
+package com.zacky.newmapskotlin
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.nashwa.newmapskotlin.adapter.adapterWisata
-import com.nashwa.newmapskotlin.model.modelWisata
+import com.zacky.newmapskotlin.adapter.adapterWisata
+import com.zacky.newmapskotlin.model.modelWisata
 
 class listMap : AppCompatActivity() {
 
